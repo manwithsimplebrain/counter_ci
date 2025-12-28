@@ -40,7 +40,7 @@ jobs:
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           serviceCredentialsFileContent: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          groups: internal-testers
+          groups: internal-tester
           file: build/app/outputs/flutter-apk/app-release.apk
           releaseNotes: |
             🚀 New internal build
